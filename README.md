@@ -22,4 +22,4 @@ let pattern = /^\d{15}[\u4e00-\u9fa5]{2,3}$/
 
 ## 使用许可
 
-[MIT](./LICENSE) © Guany
+[MIT](https://github.com/tlyboy/sno-test/blob/main/LICENSE) © Guany
