@@ -79,8 +79,8 @@ input:hover {
   color: green;
 }
 
-.fail,
-.fail:hover {
+.error,
+.error:hover {
   border-bottom: 2px solid red;
   color: red;
 }
