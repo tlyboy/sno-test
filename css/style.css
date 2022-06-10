@@ -6,14 +6,15 @@
   flex-wrap: wrap;
   padding: 20px;
   border-top: 5px solid cornflowerblue;
-  background: #fff;
+  border-radius: 10px;
+  background: #ffffff;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 p {
   margin: 15px;
   padding: 5px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #ffffff;
   transition: border-bottom 0.3s;
 }
 
@@ -22,17 +23,16 @@ p:hover {
 }
 
 form input {
-  background: none;
-  outline: none;
-  border: 2px solid #333;
   padding: 10px 20px;
-  border-radius: 0;
-  background-color: #fff;
+  background: #ffffff;
+  border: 2px solid var(--color);
+  border-radius: 10px;
+  outline: none;
   font-family: 'Noto Sans SC', Inter, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
   text-align: center;
-  color: #333;
+  color: var(--color);
   transition: all 0.3s;
 }
 

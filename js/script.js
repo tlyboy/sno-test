@@ -1,4 +1,9 @@
+const username = document.querySelector('#username')
 const submit = document.querySelector('#submit')
+
+if (username) {
+  username.focus()
+}
 
 if (submit) {
   submit.addEventListener('click', e => {

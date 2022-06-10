@@ -1,3 +1,23 @@
+:root {
+  --light-color: #2c3e50;
+  --light-background: #ecf0f1;
+
+  --dark-color: #2c3e50;
+  --dark-background: #2c3e50;
+}
+
+:root {
+  --color: var(--light-color);
+  --background: var(--light-background);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color: var(--dark-color);
+    --background: var(--dark-background);
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -16,8 +36,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #eee;
+  background: var(--background);
   font-family: 'Noto Sans SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: var(--color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

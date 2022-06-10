@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no"
     />
-    <title>软件 1901 学委小程序 | 学号校验</title>
+    <title>学号校验小工具</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="./favicon.png" />
     <link rel="stylesheet" href="./css/base.css" />
@@ -15,9 +15,14 @@
   </head>
   <body>
     <div id="app">
-      <p>格式：学号 + 姓名</p>
+      <p>学号校验小工具</p>
       <form action="">
-        <input type="text" name="username" id="username" />
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="格式：学号 + 姓名"
+        />
         <input type="submit" value="校验学号" id="submit" />
       </form>
       <p id="result">请先输入你的学号！</p>
