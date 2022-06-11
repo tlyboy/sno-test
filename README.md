@@ -12,7 +12,7 @@
 正则表达式：
 
 ```js
-let pattern = /^\d{15}[\u4e00-\u9fa5]{2,3}$/
+const pattern = /^\d{15}[\u4e00-\u9fa5]{2,3}$/
 ```
 
 解析：
