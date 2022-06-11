@@ -5,21 +5,29 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 20px;
-  border-top: 5px solid cornflowerblue;
+  border-top: 5px solid #3498db;
   border-radius: 10px;
   background: #ffffff;
-  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px 1px rgba(44, 62, 80, 0.2);
+}
+
+h1 {
+  margin: 15px;
+  padding: 5px;
+  font-size: 18px;
+  color: #e67e22;
 }
 
 p {
   margin: 15px;
   padding: 5px;
   border-bottom: 2px solid #ffffff;
+  color: var(--color);
   transition: border-bottom 0.3s;
 }
 
 p:hover {
-  border-bottom: 2px solid cornflowerblue;
+  border-bottom: 2px solid #3498db;
 }
 
 form input {
@@ -37,7 +45,7 @@ form input {
 }
 
 form input[type='text']:focus {
-  border: 2px solid cornflowerblue;
+  border: 2px solid #3498db;
 }
 
 form input[type='submit'] {
@@ -45,17 +53,17 @@ form input[type='submit'] {
 }
 
 form input:hover {
-  border: 2px solid cornflowerblue;
+  border: 2px solid #3498db;
 }
 
 .success,
 .success:hover {
-  border-bottom: 2px solid green;
-  color: green;
+  border-bottom: 2px solid #27ae60;
+  color: #27ae60;
 }
 
 .error,
 .error:hover {
-  border-bottom: 2px solid red;
-  color: red;
+  border-bottom: 2px solid #e74c3c;
+  color: #e74c3c;
 }
