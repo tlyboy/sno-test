@@ -36,9 +36,7 @@ form input {
   border: 2px solid var(--color);
   border-radius: 10px;
   outline: none;
-  font-family: 'Noto Sans SC', Inter, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
-    'Helvetica Neue', sans-serif;
+  font-family: 'Noto Sans SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
   color: var(--color);
   transition: all 0.3s;
