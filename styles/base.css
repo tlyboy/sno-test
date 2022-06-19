@@ -37,7 +37,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background: var(--background);
-  'Noto Sans SC', 'Helvetica Neue', Helvetica, Arial, sans-serif
+  font-family: 'Noto Sans SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: var(--color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
