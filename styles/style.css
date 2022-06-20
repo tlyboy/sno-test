@@ -36,7 +36,8 @@ form input {
   border: 2px solid var(--color);
   border-radius: 10px;
   outline: none;
-  font-family: 'Noto Sans SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Source Han Sans SC VF', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
   text-align: center;
   color: var(--color);
   transition: all 0.3s;
