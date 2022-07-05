@@ -19,19 +19,16 @@
 }
 
 *,
-*::before,
-*::after {
-  box-sizing: border-box;
+::before,
+::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   position: relative;
   font-weight: normal;
-  font-family: 'Source Han Sans SC VF', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-appearance: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -40,5 +37,8 @@ body {
   align-items: center;
   min-height: 100vh;
   background: var(--background);
+  font-family: 'Source Han Sans SC VF', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: var(--color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
