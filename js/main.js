@@ -6,7 +6,7 @@ username.focus()
 
 const pattern = /^\d{15}[\u4e00-\u9fa5]{2,3}$/
 
-const verify = () => {
+function verify() {
   if (pattern.test(username.value)) {
     result.className = 'success'
     result.innerHTML = '学号输入格式正确！'
