@@ -7,7 +7,7 @@
   padding: 20px;
   border-top: 5px solid #3498db;
   border-radius: 10px;
-  background: #ffffff;
+  background: var(--t-bg);
   box-shadow: 0 0 5px 1px rgba(44, 62, 80, 0.2);
 }
 
@@ -21,8 +21,8 @@ h1 {
 p {
   margin: 15px;
   padding: 5px;
-  border-bottom: 2px solid #ffffff;
-  color: var(--color);
+  border-bottom: 2px solid var(--t-bg);
+  color: var(--t-text);
   transition: border-bottom 0.3s;
 }
 
@@ -32,13 +32,13 @@ p:hover {
 
 form input {
   padding: 10px 20px;
-  background: #ffffff;
-  border: 2px solid var(--color);
+  background: var(--t-bg);
+  border: 2px solid var(--t-text);
   border-radius: 10px;
   outline: none;
   font-family: 'Source Han Sans SC VF', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
-  color: var(--color);
+  color: var(--t-text);
   transition: all 0.3s;
 }
 
